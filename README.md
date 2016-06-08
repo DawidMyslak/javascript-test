@@ -129,12 +129,12 @@ console.log(name);
 
 ## Task 13
 ```javascript
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < 3; i++) {
   subLoop();
 }
 
 function subLoop() {
-  for (i = 0; i < 5; i++) {
+  for (i = 0; i < 3; i++) {
     console.log(i);
   }
 }
