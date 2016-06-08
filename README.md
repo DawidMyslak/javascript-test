@@ -28,11 +28,11 @@ for (var i = 0; i < 5; i++) {
 ```javascript
 function override() {
   var a = 2
-  b = 2;
+      b = 2;
 }
 
 var a = 1
-  b = 1;
+    b = 1;
 
 override();
 
