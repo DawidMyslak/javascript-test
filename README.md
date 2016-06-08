@@ -139,3 +139,25 @@ function subLoop() {
   }
 }
 ```
+
+## Task 14
+```javascript
+function List() { };
+
+List.prototype = {
+  items: [],
+  addItem: function (item) {
+    this.items.push(item);
+  }
+};
+
+var listA = new List();
+var listB = new List();
+
+listA.addItem(1);
+listB.addItem(1);
+listA.addItem(2);
+
+console.log(listA.items.length);
+console.log(listB.items.length);
+```
