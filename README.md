@@ -83,9 +83,9 @@ console.log(fruits);
 
 ## Task 8
 ```javascript
-var foo = { n: 1 };
-foo.x = foo = { n: 2 };
-console.log(foo.x);
+var obj = { x: 1 };
+obj.y = obj = { x: 2 };
+console.log(obj.y);
 ```
 
 ## Task 9
@@ -154,9 +154,9 @@ List.prototype = {
 var listA = new List();
 var listB = new List();
 
-listA.addItem(1);
-listB.addItem(1);
-listA.addItem(2);
+listA.addItem('a1');
+listB.addItem('b1');
+listA.addItem('a2');
 
 console.log(listA.items.length);
 console.log(listB.items.length);
