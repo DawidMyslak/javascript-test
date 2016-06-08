@@ -126,3 +126,16 @@ var name = 'Yoko';
 var person = Person('John');
 console.log(name);
 ```
+
+## Task 13
+```javascript
+for (var i = 0; i < 5; i++) {
+  subLoop();
+}
+
+function subLoop() {
+  for (i = 0; i < 5; i++) {
+    console.log(i);
+  }
+}
+```
