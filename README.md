@@ -2,7 +2,7 @@
 
 What will be printed in the console?
 
-Task 1
+## Task 1
 ```
 function loop() {
   console.log(i);
@@ -15,7 +15,7 @@ function loop() {
 loop();
 ```
 
-Task 2
+## Task 2
 ```
 for (var i = 0; i < 5; i++) {
   setTimeout(function () {
@@ -24,7 +24,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-Task 3
+## Task 3
 ```
 function override() {
   var a = 2
@@ -40,7 +40,7 @@ console.log(a);
 console.log(b);
 ```
 
-Task 4
+## Task 4
 ```
 function printNames() {
   var names = ['John', 'Yoko', 'Elvis'];
@@ -52,7 +52,7 @@ function printNames() {
 printNames();
 ```
 
-Task 5
+## Task 5
 ```
 function getUser() {
   return
@@ -65,7 +65,7 @@ var user = getUser();
 console.log(user);
 ```
 
-Task 6
+## Task 6
 ```
 console.log(1);
 setTimeout(function () {
@@ -74,27 +74,27 @@ setTimeout(function () {
 console.log(3); 
 ```
 
-Task 7
+## Task 7
 ```
 var fruits = ['apple', 'banana'];
 fruits.length = 1;
 console.log(fruits);
 ```
 
-Task 8
+## Task 8
 ```
 var foo = {n: 1};
 foo.x = foo = {n: 2};
 console.log(foo.x);
 ```
 
-Task 9
+## Task 9
 ```
 var strings = ['10', '10', '10'];
 console.log(strings.map(parseInt));
 ```
 
-Task 10
+## Task 10
 ```
 console.log(9999999999999999);
 console.log(0.1 + 0.2);
