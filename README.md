@@ -105,13 +105,12 @@ console.log(012);
 ```javascript
 function Person(name) {
   this.name = name;
+  this.sayName = function () {
+    setTimeout(function () {
+      console.log(this.name);
+    }, 500);
+  };
 }
-
-Person.prototype.sayName = function () {
-  setTimeout(function () {
-    console.log(this.name);
-  }, 500);
-};
 
 var person = new Person('John');
 person.sayName();
