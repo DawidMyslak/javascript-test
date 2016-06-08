@@ -83,8 +83,8 @@ console.log(fruits);
 
 ## Task 8
 ```javascript
-var foo = {n: 1};
-foo.x = foo = {n: 2};
+var foo = { n: 1 };
+foo.x = foo = { n: 2 };
 console.log(foo.x);
 ```
 
