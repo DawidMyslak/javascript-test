@@ -57,7 +57,7 @@ printNames();
 function getUser() {
   return
   {
-    name: 'admin'
+    name: 'John'
   };
 }
 
@@ -99,4 +99,19 @@ console.log(strings.map(parseInt));
 console.log(9999999999999999);
 console.log(0.1 + 0.2);
 console.log(012);
+```
+
+## Task 11
+function Person(name) {
+  this.name = name;
+}
+
+Person.prototype.sayName = function () {
+  setTimeout(function () {
+    console.log(this.name);
+  }, 500);
+};
+
+var person = new Person('John');
+person.sayName();
 ```
