@@ -102,6 +102,7 @@ console.log(012);
 ```
 
 ## Task 11
+```javascript
 function Person(name) {
   this.name = name;
 }
@@ -114,4 +115,15 @@ Person.prototype.sayName = function () {
 
 var person = new Person('John');
 person.sayName();
+```
+
+## Task 12
+```javascript
+function Person(name) {
+  this.name = name;
+}
+
+var name = 'Yoko';
+var person = Person('John');
+console.log(name);
 ```
